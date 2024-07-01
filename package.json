@@ -1,0 +1,15 @@
+{
+  "name": "vendor-smart-flavor-voting",
+  "version": "1.0.0",
+  "description": "A simple terminal-based ice cream flavor voting application. In the exercise proposed by the Vendor, there was no mention of the flavors being of ice cream, but i thought that  it would be a nice little touch to  use that in my code.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "''"
+  },
+  "author": "Marina Almeida Gonzalez Papadópolis",
+  "license": "ISC"
+}
