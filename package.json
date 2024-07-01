@@ -12,5 +12,8 @@
     "url": "https://github.com/Themis-art/vendor-smart-technical-test-js.git"
   },
   "author": "Marina Almeida Gonzalez Papadópolis",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^10.5.2"
+  }
 }
