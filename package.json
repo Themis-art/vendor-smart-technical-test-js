@@ -4,11 +4,12 @@
   "description": "A simple terminal-based ice cream flavor voting application. In the exercise proposed by the Vendor, there was no mention of the flavors being of ice cream, but i thought that  it would be a nice little touch to  use that in my code.",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "''"
+    "url": "https://github.com/Themis-art/vendor-smart-technical-test-js.git"
   },
   "author": "Marina Almeida Gonzalez Papadópolis",
   "license": "ISC"
