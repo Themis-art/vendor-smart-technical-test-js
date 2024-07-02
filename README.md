@@ -16,7 +16,7 @@
   
 <p align="center">`npm test`</p>
 
-or
+<p align="center"> or </p>
 
 <p align="center">`npx jest`</p>
 
