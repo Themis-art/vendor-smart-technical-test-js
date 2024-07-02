@@ -14,11 +14,11 @@
 
 - To run the unit tests, execute the following command:
   
-<p align="center"> `npm test` </p>
+<p align="center"> **npm test** </p>
 
 <p align="center"> or </p>
 
-<p align="center"> `npx jest` </p>
+<p align="center"> **npx jest** </p>
 
 
 <h2> 💻 My code first sketch </h2>
