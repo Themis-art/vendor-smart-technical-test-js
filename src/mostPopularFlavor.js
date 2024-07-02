@@ -1,4 +1,7 @@
 function mostPopularFlavor(votes) {
+    if (votes.length === 0) {
+      return null;
+    }
     const voteCounts = {};
   
     for (let vote of votes) {
