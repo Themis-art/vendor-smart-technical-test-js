@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "A simple terminal-based ice cream flavor voting application. In the exercise proposed by the Vendor, there was no mention of the flavors being of ice cream, but i thought that  it would be a nice little touch to  use that in my code.",
   "main": "index.js",
+  
   "scripts": {
-    "start": "node index.js",
-    "test": "mocha"
+    "start": "node src/index.js",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -14,8 +15,6 @@
   "author": "Marina Almeida Gonzalez Papadópolis",
   "license": "ISC",
   "devDependencies": {
-    "assert": "^2.1.0",
-    "chai": "^5.1.1",
-    "mocha": "^10.5.2"
+    "jest": "^27.0.6"
   }
 }

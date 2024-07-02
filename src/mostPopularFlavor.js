@@ -1,28 +1,23 @@
 function mostPopularFlavor(votes) {
-    if (votes.length === 0) {
-      return null;
-    }
+  if (votes.length === 0) {
+    return null;
+  }
     const voteCounts = {};
   
-    for (let vote of votes) {
-      if (voteCounts[vote]) {
-        voteCounts[vote]++;
-      } else {
-        voteCounts[vote] = 1;
-      }
-    }
+    votes.forEach(vote => {
+      voteCounts[vote] = (voteCounts[vote] || 0) + 1;
+    });
   
-    let maxVotes = 0;
     let mostPopular = null;
-  
-    for (let flavor in voteCounts) {
-      if (voteCounts[flavor] > maxVotes || (voteCounts[flavor] === maxVotes && flavor < mostPopular)) {
-        maxVotes = voteCounts[flavor];
+    let maxVotes = 0;
+    for (const flavor in voteCounts) {
+      if (voteCounts[flavor] > maxVotes) {
         mostPopular = flavor;
+        maxVotes = voteCounts[flavor];
       }
     }
   
-    return parseInt(mostPopular);
+    return parseInt(mostPopular, 10);
   }
   
   module.exports = mostPopularFlavor;
