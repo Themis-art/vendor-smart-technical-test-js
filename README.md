@@ -7,12 +7,17 @@
 - This project utilizes the readline module, which is a core module in Node.js. As a prerequisite, the evaluator of the challenge will need to have Node.js installed on their machine to execute the code correctly. Additionally, I’ve incorporated the Jest framework for writing and running unit tests.
 
 <h2> 🛠️ Installation </h2>
+
 - Make sure you have Node.js installed. If not, you can download it from the official website: Node.js.
 
 <h2> 📋 Testing ✅ </h2>
+
 - To run the unit tests, execute the following command:
+  
 `npm test`
+
 or
+
 `npx jest`
 
 <h2> 💻 My code first sketch </h2>
