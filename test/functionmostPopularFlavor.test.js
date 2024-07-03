@@ -8,9 +8,9 @@ describe('mostPopularFlavor', () => {
     assert.strictEqual(mostPopularFlavor(votes), expected);
   });
 
-  it('should handle ties correctly', () => {
-    const votes = [1, 1, 1, 3, 4, 4];
-    const expected = 1;
+  it('should handle ties correctly by returning the first most popular flavor encountered', () => {
+    const votes = [1, 1, 2, 2];
+    const expected = 1; 
     assert.strictEqual(mostPopularFlavor(votes), expected);
   });
 
