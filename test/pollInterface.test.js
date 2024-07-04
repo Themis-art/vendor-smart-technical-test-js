@@ -59,7 +59,7 @@ describe('startPoll function', () => {
     mockRl.question.mockImplementation((question, callback) => {
       if (question.includes("Your favorite flavor number")) {
         callback('5');
-        done(); // Call done to indicate completion of asynchronous test
+        done(); 
       }
     });
 
@@ -110,7 +110,7 @@ describe('startPoll function', () => {
         callback('1');
       } else if (question.includes("continue voting?")) {
         callback('no');
-        done(); // Call done to indicate completion of asynchronous test
+        done(); 
       }
     });
 
